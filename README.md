@@ -4,7 +4,9 @@
 
 ## Project Goal- Implement security measures throughout the software development lifecycle, creating a Secure Software Development Life Cycle (SSDLC).- Automate security testing to identify vulnerabilities early in the development process, shifting security left.- Integrate security into the CI/CD pipeline for continuous security monitoring.- Ensure compliance with security best practices and industry standards.- Enable PR blocking for Critical and High Vulnerabilities.
 
-## Components### 1. Infrastructure as Code (IaC) ScanningIaC scanning ensures that the infrastructure configuration code adheres to security best practices and compliance standards. It helps in identifying misconfigurations and security loopholes in cloud infrastructure.
+## Components
+
+### 1. Infrastructure as Code (IaC) ScanningIaC scanning ensures that the infrastructure configuration code adheres to security best practices and compliance standards. It helps in identifying misconfigurations and security loopholes in cloud infrastructure.
 
 #### Tools:- **Terraform Compliance**: Assesses Terraform scripts against security policies defined using BDD-style language to ensure compliance.- **Trivy**: Provides automated IaC scanning to identify security misconfigurations across AWS, Azure, and GCP cloud environments.
 
