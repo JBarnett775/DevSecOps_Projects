@@ -1,6 +1,7 @@
 # DevSecOps Projects Overview
 
-## IntroductionThis security document outlines a DevSecOps project implementation incorporating Static Application Security Testing (SAST), Software Composition Analysis (SCA), and Infrastructure as Code (IaC) scanning best practices on applications running within AWS infrastrcuture, utilising GitHub Actions with workflows
+## Introduction
+This security document outlines a DevSecOps project implementation incorporating Static Application Security Testing (SAST), Software Composition Analysis (SCA), and Infrastructure as Code (IaC) scanning best practices on applications running within AWS infrastrcuture, utilising GitHub Actions with workflows
 
 ## Project Goal
 - Implement security measures throughout the software development lifecycle, creating a Secure Software Development Life Cycle (SSDLC).
@@ -11,7 +12,8 @@
 
 ## Components
 
-### 1. Infrastructure as Code (IaC) ScanningIaC scanning ensures that the infrastructure configuration code adheres to security best practices and compliance standards. It helps in identifying misconfigurations and security loopholes in cloud infrastructure.
+### 1. Infrastructure as Code (IaC) 
+ScanningIaC scanning ensures that the infrastructure configuration code adheres to security best practices and compliance standards. It helps in identifying misconfigurations and security loopholes in cloud infrastructure.
 
 #### Tools:
 - **Terraform Compliance**: Assesses Terraform scripts against security policies defined using BDD-style language to ensure compliance.
