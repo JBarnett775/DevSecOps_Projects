@@ -4,3 +4,4 @@ provider "aws" {
 resource "aws_s3_bucket" "terraform-example-bucket" {
   bucket = "terraform-example-bucket"
 }
+
